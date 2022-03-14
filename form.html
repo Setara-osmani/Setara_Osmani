@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+    <div class="background">
+    <h1 style=text-align:center;> Ragistration Form In Html</h1>
+        
+    <form class="" action="form.html" method="post">
+        Firstname: <br>
+        <input type="text" class="input" name="Fname" placeholder="Firstname"> <br>
+        Middlename: <br>
+        <input type="text" class="input" name="Mname" placeholder="Middlename"> <br>
+        Lastname: <br>
+        <input type="text" class="input" name="Lname" placeholder="Lastname"> <br>
+        Course: <select class="" name="Courses">
+        <option value="Web">Web</option>
+        <option value="Math">Math</option>
+        <option value="Programming">Programming</option>
+        <option value="English">English</option>
+        
+        </select><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other <br>
+        Phone: <br>
+        <input type="tel" class="input" name="Phonecode" value="+93"> <br>
+        <input type="tel" class="input" name="PhoneNumber" placeholder="phone no."><br>
+        Current Address: <br>
+        <textarea name="address" class="input" rows="6" cols="40" placeholder="Current Address"></textarea> <br>
+        Email: <br>
+        <input type="email" class="input" name="Email" placeholder="Enter Email"> <br>
+        Password: <br>
+        <input type="password" class="input" name="password" value="" 
+        pattern="[A-Z^a-z^0-9]{5,}" 
+        title="your Password must Conatin at least 5 Charaters 1 symbol and 2 digits" 
+        placeholder="Enter Password"> <br>
+        Re-type Password: <br>
+        <input type="password" class="input" name="password" value="" placeholder="Re-type Password"> <br>
+        <input type="submit" style="background-color: lightgreen;" class="input" name="register" value="Register"><br>
+
+    </form>
+
+    </div>
+</body>
+</html>
